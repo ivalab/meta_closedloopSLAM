@@ -103,7 +103,7 @@
 - git:
     local-name: turtlebot_path_following
     uri: git@github.gatech.edu:ivabots/turtlebot_path_following.git
-    version: noetic/general_traj_tfm
+    version: noetic/traj_servo
 - git:
     local-name: trajectory_based_local_planner
     uri: 'git@github.gatech.edu:ivabots/trajectory_based_local_planner.git'
@@ -148,6 +148,10 @@
     uri: https://github.com/TurtlebotAdventures/gazebo_fake_localization.git
     version: fix_tf_warning
 - git:
+    local-name: gazebo_map_generator
+    uri: git@github.gatech.edu:ivabots/gazebo_map_generator.git
+    version: noetic
+- git:
     local-name: depthimage_to_laserscan
     uri: git@github.gatech.edu:ivabots/depthimage_to_laserscan.git
     version: noetic
@@ -155,6 +159,10 @@
     local-name: egocircle
     uri: git@github.gatech.edu:ivabots/egocircle.git
     version: noetic/resolving-warnings-inflate-sparse
+- git:
+    local-name: egocircle_path_following
+    uri: git@github.gatech.edu:ivabots/egocircle_path_following.git
+    version: noetic
 - git:
     local-name: egocircle_utils
     uri: git@github.gatech.edu:ivabots/egocircle_utils.git
@@ -204,7 +212,7 @@
 - git:
     local-name: potential_gap
     uri: git@github.gatech.edu:ivabots/potential_gap.git
-    version: noetic/bg_mpc_ts
+    version: noetic/random_laser_size
 - git:
     local-name: potential_gap_path_following
     uri: git@github.gatech.edu:ivabots/potential_gap_path_following.git
@@ -217,3 +225,10 @@
     local-name: potential_gap_trajectory_servoing
     uri: git@github.gatech.edu:ivabots/potential_gap_trajectory_servoing.git
     version: noetic
+    
+# DSOL
+
+- git:
+    local-name: dsol
+    uri: git@github.gatech.edu:RoboSLAM/dsol.git
+    version: main
