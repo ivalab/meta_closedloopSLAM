@@ -231,4 +231,4 @@
 - git:
     local-name: dsol
     uri: git@github.gatech.edu:RoboSLAM/dsol.git
-    version: main
+    version: feature/sfeng/traj_servo
