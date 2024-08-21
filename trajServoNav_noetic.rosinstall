@@ -125,6 +125,11 @@
     uri: git@github.gatech.edu:ivabots/heading_cost_function.git
     version: noetic
 
+- git:
+    local-name: realsense_gazebo_plugin
+    uri: https://github.com/ivaROS/realsense_gazebo_plugin.git
+    version: add_pointcloud_d435
+
 # Core Simulator repos
 
 - git:
