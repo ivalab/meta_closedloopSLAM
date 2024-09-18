@@ -1,0 +1,239 @@
+# Core SLAM repos
+
+- git:
+    local-name: ORB_Data
+    uri: 'https://github.com/ivalab/ORB_Data.git'
+    version: master
+- git:
+    local-name: gf_orb_slam2
+    uri: 'https://github.com/ivalab/gf_orb_slam2.git'
+    version: noetic/catkin_traj_servo
+
+- git:
+    local-name: sparse_stereo_msgs
+    uri: 'git@github.gatech.edu:ivabots/sparse_stereo_msgs.git'
+    version: master
+
+- git:
+    local-name: sparse_stereo
+    uri: 'git@github.gatech.edu:ivabots/sparse_stereo.git'
+    version: noetic/traj_servo_opencv4
+
+# Core Sensor Fusion repos
+    
+- git:
+    local-name: delayed_odometry
+    uri: 'https://github.com/ivalab/delayed_odometry.git'
+    version: master
+- git:
+    local-name: ethzasl_msf
+    uri: 'https://github.com/ivalab/ethzasl_msf.git'
+    version: master
+- git:
+    local-name: odometry_converter
+    uri: 'https://github.com/ivalab/odometry_converter.git'
+    version: master
+- git:
+    local-name: gflags_catkin
+    uri: 'https://github.com/ethz-asl/gflags_catkin.git'
+    version: master
+- git:
+    local-name: glog_catkin
+    uri: 'https://github.com/ethz-asl/glog_catkin.git'
+    version: master
+- git:
+    local-name: catkin_simple
+    uri: 'https://github.com/catkin/catkin_simple.git'
+    version: master
+
+# Core Planning and Control repos
+
+- git:
+    local-name: cubic_spline_smoother
+    uri: git@github.gatech.edu:ivabots/cubic_spline_smoother.git
+    version: main
+- git:
+    local-name: trajectory_state_predictor
+    uri: https://github.com/ivaROS/trajectory_state_predictor.git
+    version: traj_servo
+- git:
+    local-name: turtlebot_trajectory_controller
+    uri: https://github.com/ivaROS/turtlebot_trajectory_controller.git
+    version: traj_servo
+- git:
+    local-name: trajectory_generator
+    uri: https://github.com/ivaROS/trajectory_generator.git
+    version: traj_servo
+- git:
+    local-name: pips_trajectory_msgs
+    uri: https://github.com/ivaROS/pips_trajectory_msgs.git
+    version: release
+- git:
+    local-name: tf2_pips
+    uri: https://github.com/ivaROS/tf2_pips.git
+    version: release
+- git:
+    local-name: pips_msgs
+    uri: https://github.com/ivaROS/pips_msgs.git
+    version: release
+- git:
+    local-name: pips_visualization
+    uri: git@github.gatech.edu:ivabots/pips_visualization.git
+    version: noetic/gazebo-camera-stixel
+- git:
+    local-name: turtlebot_trajectory_testing
+    uri: git@github.gatech.edu:ivabots/turtlebot_trajectory_testing.git
+    version: noetic/tfm_traj_servo
+- git:
+    local-name: pips_trajectory_testing
+    uri: git@github.gatech.edu:ivabots/pips_trajectory_testing.git
+    version: noetic/stixel
+- git:
+    local-name: turtlebot_trajectory_generator
+    uri: https://github.com/ivaROS/turtlebot_trajectory_generator.git
+    version: release
+- git:
+    local-name: turtlebot_trajectory_functions
+    uri: https://github.com/ivaROS/turtlebot_trajectory_functions.git
+    version: release
+- git:
+    local-name: pips
+    uri: 'git@github.gatech.edu:ivabots/pips.git'
+    version: stixel_generic_model
+- git:
+    local-name: turtlebot_path_following
+    uri: git@github.gatech.edu:ivabots/turtlebot_path_following.git
+    version: noetic/traj_servo
+- git:
+    local-name: trajectory_based_local_planner
+    uri: 'git@github.gatech.edu:ivabots/trajectory_based_local_planner.git'
+    version: master
+- git:
+    local-name: stixel
+    uri: git@github.gatech.edu:ivabots/stixel.git
+    version: noetic/stixel_generic_model_opencv4
+- git:
+    local-name: pips_dwa
+    uri: git@github.gatech.edu:ivabots/pips_dwa.git
+    version: noetic/stixel_pips_orig_tfm
+- git:
+    local-name: move_base_virtual
+    uri: git@github.gatech.edu:ivabots/move_base_virtual.git
+    version: noetic
+- git:
+    local-name: heading_cost_function
+    uri: git@github.gatech.edu:ivabots/heading_cost_function.git
+    version: noetic
+
+- git:
+    local-name: realsense_gazebo_plugin
+    uri: https://github.com/ivaROS/realsense_gazebo_plugin.git
+    version: add_pointcloud_d435
+
+# Core Simulator repos
+
+- git:
+    local-name: tsrb_world
+    uri: 'https://github.com/ivalab/tsrb_world.git'
+    version: traj_servo
+- git:
+    local-name: gazebo_turtlebot_simulator
+    uri: 'https://github.com/ivalab/gazebo_turtlebot_simulator.git'
+    version: feature/ubuntu20.04
+- git:
+    local-name: gazebo_utils
+    uri: 'https://github.com/ivalab/gazebo_utils.git'
+    version: master
+- git:
+    local-name: navigation_test
+    uri: git@github.gatech.edu:ivabots/navigation_test.git
+    version: noetic/traj_servo
+- git:
+    local-name: gazebo_fake_localization
+    uri: https://github.com/TurtlebotAdventures/gazebo_fake_localization.git
+    version: fix_tf_warning
+- git:
+    local-name: gazebo_map_generator
+    uri: git@github.gatech.edu:ivabots/gazebo_map_generator.git
+    version: noetic
+- git:
+    local-name: depthimage_to_laserscan
+    uri: git@github.gatech.edu:ivabots/depthimage_to_laserscan.git
+    version: noetic
+- git:
+    local-name: egocircle
+    uri: git@github.gatech.edu:ivabots/egocircle.git
+    version: noetic/resolving-warnings-inflate-sparse
+- git:
+    local-name: egocircle_path_following
+    uri: git@github.gatech.edu:ivabots/egocircle_path_following.git
+    version: noetic
+- git:
+    local-name: egocircle_utils
+    uri: git@github.gatech.edu:ivabots/egocircle_utils.git
+    version: egoteb_compat_tfm
+- git:
+    local-name: egocylindrical
+    uri: git@github.gatech.edu:ivabots/egocylindrical.git
+    version: noetic/stereo_hybrid_frame
+- git:
+    local-name: egocylindrical_path_following
+    uri: git@github.gatech.edu:ivabots/egocylindrical_path_following.git
+    version: noetic/tfm
+- git:
+    local-name: pips_egocylindrical
+    uri: git@github.gatech.edu:ivabots/pips_egocylindrical.git
+    version: stixel_tfm
+- git:
+    local-name: pips_egocircle
+    uri: git@github.gatech.edu:ivabots/pips_egocircle.git
+    version: feat/noetic
+- git:
+    local-name: customized_rotate_recovery
+    uri: git@github.gatech.edu:ivabots/customized_rotate_recovery.git
+    version: noetic
+
+# Trajectory servoing
+
+- git:
+    local-name: trajectory_servoing_benchmark
+    uri: 'git@github.gatech.edu:ivabots/trajectory_servoing_benchmark.git'
+    version: noetic
+- git:
+    local-name: trajectory_servoing
+    uri: 'git@github.gatech.edu:ivabots/trajectory_servoing.git'
+    version: noetic
+- git:
+    local-name: trajectory_servoing_real_exp
+    uri: git@github.gatech.edu:ivabots/trajectory_servoing_real_exp.git
+    version: master
+- git:
+    local-name: trajectory_servoing_controller
+    uri: git@github.gatech.edu:ivabots/trajectory_servoing_controller.git
+    version: main
+
+# Potential gap
+
+- git:
+    local-name: potential_gap
+    uri: git@github.gatech.edu:ivabots/potential_gap.git
+    version: noetic/random_laser_size
+- git:
+    local-name: potential_gap_path_following
+    uri: git@github.gatech.edu:ivabots/potential_gap_path_following.git
+    version: noetic
+- git:
+    local-name: potential_gap_trajectory_controller
+    uri: git@github.gatech.edu:ivabots/potential_gap_trajectory_controller.git
+    version: master
+- git:
+    local-name: potential_gap_trajectory_servoing
+    uri: git@github.gatech.edu:ivabots/potential_gap_trajectory_servoing.git
+    version: noetic
+    
+# DSOL
+
+- git:
+    local-name: dsol
+    uri: git@github.gatech.edu:RoboSLAM/dsol.git
+    version: feature/sfeng/traj_servo
