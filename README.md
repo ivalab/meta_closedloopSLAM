@@ -142,7 +142,9 @@ https://github.com/ivalab/gazebo_turtlebot_simulator
 
 ### VI-SLAM systems
 
-By default GF+MSF is included in the meta repo.  Other VI-SLAM systems that has been plugged into the framework include:
+To run the benchmarks requires installing all that you'd like to test.  To demonstrate trajectory tracking capability for just one system, only install that one.  
+By default GF+MSF is included in the meta repo.  Other VI-SLAM systems that have been plugged into the framework include:
+
 1. VINS-Fusion (at the same catkin workspace `~/catkin_ws`)
 ```
 cd ~/catkin_ws && git clone https://github.com/YipuZhao/VINS-Fusion.git
