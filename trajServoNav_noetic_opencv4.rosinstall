@@ -202,7 +202,7 @@
 - git:
     local-name: trajectory_servoing
     uri: 'git@github.gatech.edu:ivabots/trajectory_servoing.git'
-    version: noetic
+    version: noetic_opencv4
 - git:
     local-name: trajectory_servoing_real_exp
     uri: git@github.gatech.edu:ivabots/trajectory_servoing_real_exp.git
